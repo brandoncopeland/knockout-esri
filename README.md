@@ -42,6 +42,6 @@ __onClick__: command to fire on map click, args are identical to esri.map onClic
 
 ## Requirements
 
-[jQuery](http://jquery.com/)
-[knockout.js](http://knockoutjs.com/)
-[ESRI Javascript API](http://help.arcgis.com/en/webapi/javascript/arcgis)
+* [jQuery](http://jquery.com/)
+* [knockout.js](http://knockoutjs.com/)
+* [ESRI Javascript API](http://help.arcgis.com/en/webapi/javascript/arcgis)
