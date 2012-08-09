@@ -4,7 +4,9 @@ Custom [knockout.js](http://knockoutjs.com/) bindings for [ESRI Javascript API](
 
 ## Usage
 
-	<div id="map" data-bind="esriMap: { mapObject: mapWidget, isLoaded: isMapLoaded, extent: currentMapExtent, layers: mapLayers, extentRequest: mapExtentRequest, levelRequest: mapLevelRequest, onClick: doSomething }"></div>
+	<div id="map" data-bind="esriMap: { mapObject: mapWidget, isLoaded: isMapLoaded,
+		extent: currentMapExtent, layers: mapLayers, extentRequest: mapExtentRequest,
+		levelRequest: mapLevelRequest, onClick: doSomething }"></div>
 	 
 	<script type="text/javascript">
 	    var viewModel = {
@@ -41,7 +43,5 @@ __onClick__: command to fire on map click, args are identical to esri.map onClic
 ## Requirements
 
 [jQuery](http://jquery.com/)
-
 [knockout.js](http://knockoutjs.com/)
-
 [ESRI Javascript API](http://help.arcgis.com/en/webapi/javascript/arcgis)
